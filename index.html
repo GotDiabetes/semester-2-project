@@ -61,14 +61,10 @@
             border-radius: 50%;
             margin-bottom: 1rem;
         }
-        .hobbies-section video {
+        .hobbies-section video, .small-video {
             width: 80%;
             max-width: 600px;
             margin: 1rem 0;
-        }
-        .small-video {
-            width: 50%;
-            max-width: 300px;
         }
     </style>
 </head>
@@ -98,27 +94,55 @@
                 <li>
                     <h3>Isaac's Digital Webstore</h3>
                     <p>A webstore containing over 15+ products that you can choose from using Isaac's currency.</p>
+                    <p><a href="https://gotdiabetes.github.io/html-css-course/MVP/test.html">View Project</a></p>
                 </li>
             </ul>
             <h3>Watch a Demo of My Webstore</h3>
             <video class="small-video" controls>
-                <source src="computer science project.mp4" type="video/mp4">
+                <source src="computer science porjkect.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="IMG_7883.jpg" alt="Picture of Isaac" style="width:150px; height:auto; border-radius:50%; margin-bottom:1rem;">
+            <p>Hello! I'm Isaac, a Software Developer. I'm passionate about Tennis, Computer Science, and Fishing.</p>
+            <p>My skills include: JavaScript, HTML, CSS, and being a Starbucks Barista.</p>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <h2>More Than Just a Coder</h2>
+            <p>Outside of coding, I enjoy playing tennis and fishing. These hobbies help me maintain a balanced life and keep me energized for my coding projects.</p>
+            <h3>Watch Me Play Tennis</h3>
+            <video controls>
+                <source src="isaactennis.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <p>This video demonstrates the core functionalities of my digital webstore, including product browsing, adding to cart, and checking out.</p>
+            <h3>Here's a picture of me enjoying my time outdoors</h3>
+            <img src="isaac fishing.jpg" alt="Isaac enjoying Tennis and Fishing">
         </section>
 
         <section id="timeline">
             <h2>Project Timeline</h2>
             <ul>
-                <li><strong>Week 1-2 (Jan 24 - Feb 7):</strong> Software Setup & Understanding the MagicMirror² Framework. The first step in building our smart mirror is setting up the Raspberry Pi, which serves as the brain of the project. This involves installing the appropriate operating system—typically Raspberry Pi OS—and ensuring it runs smoothly. Once the OS is installed, we will download and configure the MagicMirror² framework, an open-source modular platform designed specifically for smart mirrors. This framework will provide the foundation for our display, allowing us to integrate and customize various modules to show relevant information like time, weather, and news updates.
-                
-                There are many tutorials available online that guide people through building a basic smart mirror, but what makes our project unique is how we plan to enhance it by incorporating multiple advanced features. Rather than following a single tutorial from start to finish, we are drawing inspiration from different projects, each of which contributes something valuable to our final design. Some smart mirror projects focus on voice activation, allowing users to control the display hands-free. Others experiment with touch functionality, enabling users to interact with the mirror like a tablet. Additional features like customizable app selection, real-time weather updates, and music projection have been implemented in different variations of smart mirrors, but few projects have successfully combined all of these features into a single, seamless experience.
-                
-                Our goal is to take the best aspects of these different implementations and merge them into a single, highly interactive and functional smart mirror. This means our first two weeks will not only focus on setting up the MagicMirror² framework but also on exploring its customization potential. We will familiarize ourselves with JavaScript, as this is the primary language used to modify and create modules within the framework. Basic modifications will include adjusting the layout, modifying colors and fonts for better visibility, and enabling or disabling default modules to suit our needs.
-                
-                As we refine the software setup, we will begin researching the additional features we want to implement. This includes looking into voice recognition libraries, touchscreen overlays for the display, and ways to integrate external APIs for music playback and weather forecasting. By the end of these two weeks, we should have a working foundation for our smart mirror, a clear understanding of how the framework operates, and a roadmap for how we will integrate the advanced features in the coming weeks.</li>
+                <li><strong>Week 1-2 (Jan 24 - Feb 7):</strong>
+                    <p><strong>Software Setup & Understanding the MagicMirror² Framework</strong></p>
+                    <p>The first step in building our smart mirror is setting up the Raspberry Pi, which serves as the brain of the project. This involves installing the appropriate operating system—typically Raspberry Pi OS—and ensuring it runs smoothly. Once the OS is installed, we will download and configure the MagicMirror² framework, an open-source modular platform designed specifically for smart mirrors.</p>
+                    <p>Our goal is to integrate multiple advanced features beyond the basic tutorial implementations. We are exploring various functionalities, including voice activation, touch functionality, real-time weather updates, and customizable applications.</p>
+                    <p>Additionally, we are researching JavaScript to modify and create modules within the framework, refining layout customization, and adjusting visibility settings.</p>
+                    <p>Future implementations will explore voice recognition, touchscreen overlays, and external API integrations for an enhanced user experience.</p>
+                </li>
             </ul>
+        </section>
+
+        <section id="resume">
+            <h2>Resume</h2>
+            <p>Check out my resume <a href="https://docs.google.com/presentation/d/1_QMBZuUxyWsYMNJQwzdyibsTlrJkLRWOiQdktm2f_hQ/edit?usp=sharing" target="_blank">here</a>.</p>
+        </section>
+
+        <section id="linkedin">
+            <h2>LinkedIn</h2>
+            <p>Connect with me on LinkedIn <a href="https://www.linkedin.com/in/isaac-lee-2a5755293/" target="_blank">here</a>.</p>
         </section>
     </div>
     <footer>
