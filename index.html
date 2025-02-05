@@ -14,31 +14,38 @@
             color: #333;
         }
         header {
-            background: #333;
+            background: #222;
             color: #fff;
             padding: 1rem 0;
             text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
         }
         nav {
             display: flex;
             justify-content: center;
-            gap: 1rem;
-            background: #444;
-            padding: 0.5rem;
+            gap: 1.5rem;
+            background: linear-gradient(90deg, #444, #222);
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         nav a {
             color: #fff;
             text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
         }
         nav a:hover {
-            text-decoration: underline;
+            background: #555;
         }
         .container {
-            padding: 1rem;
+            padding: 2rem;
         }
         section {
             margin: 2rem 0;
-            padding: 1rem;
+            padding: 1.5rem;
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -46,25 +53,8 @@
         footer {
             text-align: center;
             padding: 1rem;
-            background: #333;
+            background: #222;
             color: #fff;
-        }
-        .hobbies-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-        }
-        .hobbies-section img {
-            width: 150px;
-            height: auto;
-            border-radius: 50%;
-            margin-bottom: 1rem;
-        }
-        .hobbies-section video, .small-video {
-            width: 80%;
-            max-width: 600px;
-            margin: 1rem 0;
         }
     </style>
 </head>
@@ -80,7 +70,7 @@
         <a href="timeline.html">Timeline</a>
         <a href="resume.pdf" target="_blank">Resume</a>
         <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-        <a href="second_semester_project.html">Second Semester Project</a>
+        <a href="https://github.com/GotDiabetes/semester-2-project/tree/main" target="_blank">Second Semester Project</a>
     </nav>
     <div class="container">
         <section id="home">
@@ -99,24 +89,18 @@
                 <li>
                     <h3>Second Semester Project</h3>
                     <p>A smart mirror project integrating multiple advanced features.</p>
-                    <p><a href="https://github.com/GotDiabetes/semester-2-project" target="_blank">Project Repository</a> (Still in progress)</p>
+                    <p><a href="https://github.com/GotDiabetes/semester-2-project/tree/main" target="_blank">Project Repository</a></p>
                 </li>
             </ul>
-            <h3>Watch a Demo of My Webstore</h3>
-            <video class="small-video" controls>
-                <source src="computer science project.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </section>
 
         <section id="about">
             <h2>About Me</h2>
-            <img src="IMG_7883.jpg" alt="Picture of Isaac" style="width:150px; height:auto; border-radius:50%; margin-bottom:1rem;">
             <p>Hello! I'm Isaac, a Software Developer. I'm passionate about Tennis, Computer Science, and Fishing.</p>
             <p>My skills include: JavaScript, HTML, CSS, and being a Starbucks Barista.</p>
         </section>
 
-        <section id="hobbies" class="hobbies-section">
+        <section id="hobbies">
             <h2>More Than Just a Coder</h2>
             <p>Outside of coding, I enjoy playing tennis and fishing. These hobbies help me maintain a balanced life and keep me energized for my coding projects.</p>
             <h3>Watch Me Play Tennis</h3>
@@ -125,11 +109,11 @@
                 Your browser does not support the video tag.
             </video>
             <h3>Here's a picture of me enjoying my time outdoors</h3>
-            <img src="isaac fishing.jpg" alt="Isaac enjoying Tennis and Fishing">
+            <img src="isaac_fishing.jpg" alt="Isaac enjoying Tennis and Fishing" style="width:150px; height:auto; border-radius:50%; margin-bottom:1rem;">
         </section>
     </div>
     <footer>
-        <p>&copy; Mr. Lee's portillos.</p>
+        <p>&copy; 2024 Isaac's Portfolio. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
