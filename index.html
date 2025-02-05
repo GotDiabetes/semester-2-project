@@ -12,7 +12,6 @@
             line-height: 1.6;
             background-color: #f4f4f4;
             color: #333;
-            transition: all 0.3s ease-in-out;
         }
         header {
             background: #333;
@@ -30,11 +29,9 @@
         nav a {
             color: #fff;
             text-decoration: none;
-            transition: color 0.3s ease;
         }
         nav a:hover {
             text-decoration: underline;
-            color: #f8c102;
         }
         .container {
             padding: 1rem;
@@ -45,16 +42,29 @@
             background: #fff;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        section:hover {
-            transform: scale(1.02);
         }
         footer {
             text-align: center;
             padding: 1rem;
             background: #333;
             color: #fff;
+        }
+        .hobbies-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .hobbies-section img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+        .hobbies-section video, .small-video {
+            width: 80%;
+            max-width: 600px;
+            margin: 1rem 0;
         }
     </style>
 </head>
@@ -68,8 +78,8 @@
         <a href="#about">About Me</a>
         <a href="#hobbies">More Than Just a Coder</a>
         <a href="timeline.html">Timeline</a>
-        <a href="#resume">Resume</a>
-        <a href="#linkedin">LinkedIn</a>
+        <a href="resume.pdf" target="_blank">Resume</a>
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
         <a href="second_semester_project.html">Second Semester Project</a>
     </nav>
     <div class="container">
@@ -92,6 +102,30 @@
                     <p><a href="https://github.com/GotDiabetes/semester-2-project" target="_blank">Project Repository</a> (Still in progress)</p>
                 </li>
             </ul>
+            <h3>Watch a Demo of My Webstore</h3>
+            <video class="small-video" controls>
+                <source src="computer science project.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="IMG_7883.jpg" alt="Picture of Isaac" style="width:150px; height:auto; border-radius:50%; margin-bottom:1rem;">
+            <p>Hello! I'm Isaac, a Software Developer. I'm passionate about Tennis, Computer Science, and Fishing.</p>
+            <p>My skills include: JavaScript, HTML, CSS, and being a Starbucks Barista.</p>
+        </section>
+
+        <section id="hobbies" class="hobbies-section">
+            <h2>More Than Just a Coder</h2>
+            <p>Outside of coding, I enjoy playing tennis and fishing. These hobbies help me maintain a balanced life and keep me energized for my coding projects.</p>
+            <h3>Watch Me Play Tennis</h3>
+            <video controls>
+                <source src="isaactennis.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3>Here's a picture of me enjoying my time outdoors</h3>
+            <img src="isaac fishing.jpg" alt="Isaac enjoying Tennis and Fishing">
         </section>
     </div>
     <footer>
