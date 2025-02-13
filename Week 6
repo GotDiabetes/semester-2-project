@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Mirror Project Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Mirror Project Update</h1>
+        
+        <h2>Beginning of the Week: 2/10</h2>
+        <p>The features that currently exist include:</p>
+        <ul>
+            <li>Working smart display</li>
+            <li>Weather display for the area</li>
+            <li>Current time and period end notifications</li>
+            <li>Daily headline news</li>
+            <li>Encouraging changing messages</li>
+        </ul>
+        <p>We wanted to add a camera, but our main roadblock was the limit with ChatGPT.</p>
+        
+        <h2>End of the Week: 2/13</h2>
+        <p>We successfully added a camera with an FPS of 30, which is quite smooth. A challenge we overcame was ensuring the system runs efficiently by preventing overlapping modules and code conflicts within the smart mirror.</p>
+        
+        <h2>Next Steps</h2>
+        <p>Our upcoming plans include:</p>
+        <ul>
+            <li>Implementing voice activation</li>
+            <li>Adding facial recognition using OpenCV (estimated completion in 1-2 weeks)</li>
+            <li>Starting hardware enhancements to improve the smart mirror’s appearance</li>
+        </ul>
+    </div>
+</body>
+</html>
