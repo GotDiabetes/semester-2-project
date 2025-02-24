@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Mirror Project Update</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #141e30, #243b55);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            font-weight: 400;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        p, ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #00c6ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-container {
+            margin-top: 20px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Mirror Project Update</h1>
+        
+        <h2>Beginning of the Week: 2/15</h2>
+        <p>The features that currently exist include:</p>
+        <ul>
+            <li>Working smart display</li>
+            <li>Weather display for the area</li>
+            <li>Current time and period end notifications</li>
+            <li>Daily headline news</li>
+            <li>Encouraging changing messages</li>
+        </ul>
+        <p>We wanted to add a camera, but our main roadblock was the limit with ChatGPT.</p>
+        
+        <h2>End of the Week: 2/24</h2>
+        <p>We successfully added a camera with an FPS of 30, which is quite smooth. A challenge we overcame was ensuring the system runs efficiently by preventing overlapping modules and code conflicts within the smart mirror.</p>
+        
+        <h2>Next Steps</h2>
+        <p>Our upcoming plans include:</p>
+        <ul>
+            <li>Implementing voice activation</li>
+            <li>Adding facial recognition using OpenCV (estimated completion in 1-2 weeks)</li>
+            <li>Starting hardware enhancements to improve the smart mirror’s appearance</li>
+        </ul>
+        
+        <h2>Project Demo</h2>
+        <div class="video-container">
+            <iframe src="https://drive.google.com/file/d/1PapZc2yIzSG195r_ekVmIGsoW1rjsgNY/preview" allow="autoplay"></iframe>
+        </div>
+
+        <h2>Project File</h2>
+        <p>You can access the project file <a href="https://drive.google.com/file/d/1PapZc2yIzSG195r_ekVmIGsoW1rjsgNY/view?usp=sharing" target="_blank">here</a>.</p>
+    </div>
+</body>
+</html>
