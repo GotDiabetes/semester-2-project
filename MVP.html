@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Portfolio - Smart Mirror Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            background: linear-gradient(90deg, #444, #222);
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            color: #555;
+        }
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        .demo-container {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        video, iframe {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #222;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Isaac's Smart Mirror Project
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">More Than Just a Coder</a>
+    <a href="#timeline">Timeline</a>
+    <a href="resume.pdf" target="_blank">Resume</a>
+    <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+    <a href="MVP.html" target="_blank">MVP Presentation</a>
+</nav>
+
+<div class="container">
+    <section id="projects">
+        <h2>Second Semester Project: Smart Mirror</h2>
+        <p>The smart mirror is a cutting-edge project that blends technology with everyday life. Using a one-way acrylic mirror combined with a digital display, it offers real-time information such as:</p>
+        <ul>
+            <li>🌤️ Weather Updates</li>
+            <li>⏰ Time and Date</li>
+            <li>📅 Calendar Appointments</li>
+            <li>📰 News Headlines</li>
+            <li>🎯 Customizable Widgets</li>
+        </ul>
+        <p>Our objective is to make an affordable and interactive mirror that enhances the user’s daily routine. The mirror not only serves as a personal assistant but also adds a modern touch to any living space.</p>
+        
+        <h3>🎯 Project Research & Planning</h3>
+        <p>Currently, we are in the stage of developing and implementing programs that will drive the mirror’s functionality. Our research has focused on optimizing the user interface and ensuring that the displayed information is clear, responsive, and visually appealing.</p>
+        <p>Some key challenges include integrating real-time APIs, ensuring smooth transitions between widgets, and creating a design that remains consistent and intuitive for all users.</p>
+        
+        <h3>⚙️ Technical Overview</h3>
+        <p>The smart mirror uses a Raspberry Pi running the <strong>MagicMirror²</strong> framework, which is an open-source platform that allows easy customization of various widgets. The primary technologies involved include:</p>
+        <ul>
+            <li>💻 <strong>Raspberry Pi OS:</strong> A lightweight Linux distribution optimized for the Raspberry Pi.</li>
+            <li>📝 <strong>Node.js & npm:</strong> For managing and running backend modules.</li>
+            <li>📡 <strong>API Integration:</strong> Fetching real-time data for weather, news, and calendars.</li>
+            <li>🎨 <strong>Custom CSS:</strong> Ensuring a sleek, modern interface for the mirror.</li>
+        </ul>
+    </section>
+
+    <section id="demo">
+        <h2>🔍 Project Demo</h2>
+        <p>Watch the demo of the Smart Mirror in action below or explore an interactive preview.</p>
+        
+        <div class="demo-container">
+            <!-- Embed a demo video or link -->
+            <video controls>
+                <source src="smart-mirror-demo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <p class="demo-container">If you prefer, <a href="MVP.html" class="btn" target="_blank">View the Live MVP Demo</a></p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Isaac's Portfolio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
