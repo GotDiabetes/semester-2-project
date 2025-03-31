@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isaac's Portfolio</title>
+    <title>Isaac's Portfolio - Smart Mirror Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,11 +16,10 @@
         header {
             background: #222;
             color: #fff;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
             text-align: center;
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: bold;
-            letter-spacing: 1px;
         }
         nav {
             display: flex;
@@ -42,100 +41,139 @@
             background: #555;
         }
         .container {
+            max-width: 1000px;
+            margin: 2rem auto;
             padding: 2rem;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         section {
-            margin: 2rem 0;
-            padding: 1.5rem;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            color: #444;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+            color: #555;
+        }
+        p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        ul {
+            margin-bottom: 1rem;
+        }
+        .demo-container {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        video, iframe {
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.8rem 1.5rem;
+            background: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #555;
         }
         footer {
             text-align: center;
             padding: 1rem;
             background: #222;
             color: #fff;
-        }
-        img {
-            width: 150px;
-            height: auto;
-            border-radius: 50%;
-            display: block;
-            margin: 1rem auto;
-        }
-        video {
-            display: block;
-            width: 80%;
-            max-width: 400px;
-            margin: 1rem auto;
-            border-radius: 8px;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Isaac's Portfolio</h1>
-    </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#about">About Me</a>
-        <a href="#hobbies">More Than Just a Coder</a>
-        <a href="#timeline">Timeline</a>
-        <a href="resume.pdf" target="_blank">Resume</a>
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-        <a href="MVP.html" target="_blank">MVP Presentation</a>
-    </nav>
-    <div class="container">
-        <section id="timeline">
-            <h2>Project Timeline & Milestones</h2>
-            <ul>
-                <li><strong>February - March:</strong> Developing and implementing programs for the smart mirror, including data display functionalities and interactive features.</li>
-                <li><strong>Mid-March:</strong> Completion of core programs, thorough testing, and debugging to ensure seamless integration.</li>
-                <li><strong>April:</strong> Measuring the computer’s dimensions accurately, purchasing necessary materials such as the acrylic one-way mirror and wooden frame, followed by assembling and installing the display.</li>
-            </ul>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <h3>Second Semester Project: Smart Mirror</h3>
-            <p>The smart mirror is an innovative project that combines a one-way acrylic mirror with a digital display to provide real-time information such as weather, time, calendar updates, and personalized widgets. The project aims to create an affordable yet high-quality interactive mirror.</p>
-            <h4>Project Research & Planning</h4>
-            <p>Currently, we are in the stage of implementing and developing programs to display relevant information on the mirror. Our primary goal is to ensure optimal visibility and responsiveness while maintaining an aesthetically pleasing design.</p>
-            <h4>Current Progress/Timeline</h4>
-            <p>Week 7-8 (Feb 18 - Feb 24): Software Setup & Understanding the MagicMirror² Framework
-            Setting Up the Raspberry Pi
-            The first step in building our smart mirror is configuring the Raspberry Pi, which acts as the central processing unit of our project. This involves selecting the appropriate model of Raspberry Pi, installing Raspberry Pi OS, and ensuring that it runs optimally. The Raspberry Pi OS is a lightweight Linux distribution designed for ARM-based processors, making it an ideal choice for embedded systems like smart mirrors.
-            After setting up the OS, the next step is to install and configure the MagicMirror² framework. This open-source modular platform enables the integration of various widgets, including time, calendar events, news, and weather updates. We will also ensure that dependencies such as Node.js and npm are correctly installed, as they are crucial for module customization. The project repository and progress updates can be found in the links below.</p>
-            <p><a href="https://github.com/GotDiabetes/semester-2-project/tree/main" target="_blank">Project Repository</a></p>
-            <p><a href="Project Development.html">Project Development - Early Stages</a></p>
-            <p><a href="Week 6.html">Week 6 Development - Rolling Stages</a></p>
-            <p><a href="Week 7.html">Week 7 Development - Adding Stages</a></p>
-        </section>
-        <section id="first-semester-project">
-            <h2>First Semester Project</h2>
-            <h3>Isaac's Digital Webstore</h3>
-            <p>The digital webstore is a fully functional e-commerce platform offering over 15+ products, where users can shop using a unique in-site currency system. This project provided valuable experience in front-end and back-end development, integrating HTML, CSS, and JavaScript to create an interactive shopping experience.</p>
-            <p><a href="https://gotdiabetes.github.io/html-css-course/MVP/test.html" target="_blank">View Project</a></p>
-        </section>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I'm Isaac, a dedicated software developer with a passion for innovation. My interests span across Tennis, Computer Science, and Fishing. I strive to create projects that blend technology with real-world applications, making everyday tasks more efficient and engaging.</p>
-        </section>
-        <section id="hobbies">
-            <h2>More Than Just a Coder</h2>
-            <p>Beyond the screen, I find joy in playing tennis and fishing. These activities fuel my creativity and keep me balanced in my professional pursuits.</p>
-            <h3>Watch Me Play Tennis</h3>
+
+<header>
+    Isaac's Smart Mirror Project
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About Me</a>
+    <a href="#hobbies">More Than Just a Coder</a>
+    <a href="#timeline">Timeline</a>
+    <a href="resume.pdf" target="_blank">Resume</a>
+    <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
+    <a href="MVP.html" target="_blank">MVP Presentation</a>
+</nav>
+
+<div class="container">
+    <section id="projects">
+        <h2>Second Semester Project: Smart Mirror</h2>
+        <p>The smart mirror is a cutting-edge project that blends technology with everyday life. Using a one-way acrylic mirror combined with a digital display, it offers real-time information such as:</p>
+        <ul>
+            <li>🌤️ Weather Updates</li>
+            <li>⏰ Time and Date</li>
+            <li>📅 Calendar Appointments</li>
+            <li>📰 News Headlines</li>
+            <li>🎯 Customizable Widgets</li>
+        </ul>
+        <p>Our objective is to make an affordable and interactive mirror that enhances the user’s daily routine. The mirror not only serves as a personal assistant but also adds a modern touch to any living space.</p>
+        
+        <h3>🎯 Project Research & Planning</h3>
+        <p>Currently, we are in the stage of developing and implementing programs that will drive the mirror’s functionality. Our research has focused on optimizing the user interface and ensuring that the displayed information is clear, responsive, and visually appealing.</p>
+        <p>Some key challenges include integrating real-time APIs, ensuring smooth transitions between widgets, and creating a design that remains consistent and intuitive for all users.</p>
+        
+        <h3>⚙️ Technical Overview</h3>
+        <p>The smart mirror uses a Raspberry Pi running the <strong>MagicMirror²</strong> framework, which is an open-source platform that allows easy customization of various widgets. The primary technologies involved include:</p>
+        <ul>
+            <li>💻 <strong>Raspberry Pi OS:</strong> A lightweight Linux distribution optimized for the Raspberry Pi.</li>
+            <li>📝 <strong>Node.js & npm:</strong> For managing and running backend modules.</li>
+            <li>📡 <strong>API Integration:</strong> Fetching real-time data for weather, news, and calendars.</li>
+            <li>🎨 <strong>Custom CSS:</strong> Ensuring a sleek, modern interface for the mirror.</li>
+        </ul>
+    </section>
+
+    <section id="demo">
+        <h2>🔍 Project Demo</h2>
+        <p>Watch the demo of the Smart Mirror in action below or explore an interactive preview.</p>
+        
+        <div class="demo-container">
+            <!-- Embed a demo video or link -->
             <video controls>
-                <source src="isaactennis.mp4" type="video/mp4">
+                <source src="smart-mirror-demo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <h3>Exploring the Outdoors</h3>
-            <img src="isaac fishing.jpg" alt="Isaac enjoying Tennis and Fishing">
-        </section>
-    </div>
-    <footer>
-        <p>&copy; 2024 Isaac's Portfolio. All Rights Reserved.</p>
-    </footer>
+        </div>
+
+        <p class="demo-container">If you prefer, <a href="MVP.html" class="btn" target="_blank">View the Live MVP Demo</a></p>
+    </section>
+
+    <section id="next-steps">
+        <h2>🚀 Next Steps for the Project</h2>
+        <p>As we move forward, the next steps for the Smart Mirror project include:</p>
+        <ul>
+            <li>🤖 <strong>Facial Recognition with OpenCV:</strong> We plan to integrate facial recognition using <strong>OpenCV</strong> to identify the user and display personalized information. The system will detect the person’s face and greet them by name.</li>
+            <li>🔨 <strong>Building a Custom Case:</strong> We are researching materials and designs for a custom-built case that will house the mirror securely. Our goal is to ensure that the case is self-built, aesthetically pleasing, and functional.</li>
+            <li>📱 <strong>iPhone Integration:</strong> To make the mirror even more versatile, we aim to implement a connector that allows users to stream YouTube or perform other tasks while doing their makeup.</li>
+        </ul>
+        <p>These enhancements will transform the Smart Mirror into a more dynamic and feature-rich product, offering users a personalized and interactive experience.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Isaac's Portfolio. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
